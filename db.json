@@ -1,11 +1,25 @@
 {
   "products": [
     {
-      "id": "1",
-      "name": "Lagrimas Negras",
-      "price": 120,
-      "images": ["https://cdn.shopify.com/s/files/1/1176/1532/products/thumbnail_pdp_lagrimas-negras_1024x1024.jpg?v=1536770228"],
-      "description": "Chela vergas"
+      "product": {
+        "name": "Leffe Ruby",
+        "price": "100",
+        "desc": "Chelota bien chida",
+        "images": [
+          "https://cdn.shopify.com/s/files/1/1176/1532/products/LEFRU-B-750-1_Glass_1024x1024.jpg?v=1546439842"
+        ],
+        "id": 36
+      },
+      "id": "RuUCtlB"
+    },
+    {
+      "name": "Delirium",
+      "desc": "Best beer worldwide beer ranking 2018",
+      "price": "90",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1176/1532/products/DELTR-B-330-1_Glass_1024x1024.jpg?v=1498170136"
+      ],
+      "id": "lhs2hcF"
     }
   ]
 }

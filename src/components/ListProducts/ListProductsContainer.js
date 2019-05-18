@@ -1,8 +1,14 @@
 import React, {PureComponent} from 'react';
 import {connect} from 'react-redux';
 import ProductCard from '../common/ProductCard';
+import { onFetch, onSetProduct } from '../../redux/ducks/products'
 
 class ListProductsContainer extends PureComponent{
+
+    componentDidMount(){
+        this.props.onFetch()
+    }
+
     render(){
         console.log(this.props);
         const {products = []} = this.props;
@@ -36,4 +42,4 @@ const mapStateToProps = state => {
     }
 }
 
-export default connect(mapStateToProps, {})(ListProductsContainer);
+export default connect(mapStateToProps, { onFetch })(ListProductsContainer);
